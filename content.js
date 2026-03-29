@@ -9,6 +9,7 @@ if (!window.__CR_CHECKLIST_LOADED__) {
     { id: "logging", label: "Proper logging added" },
     { id: "error_handling", label: "Error handling done" },
     { id: "naming", label: "Naming is meaningful" },
+    { id: "test", label: "Tests are added" },
     { id: "modular", label: "Code is modular" }
   ];
 
