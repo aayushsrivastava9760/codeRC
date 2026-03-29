@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Code Review Checklist",
+  "version": "1.0",
+  "description": "Checklist for code reviews",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open Checklist",
+    "default_icon" : "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["content.js"],
+      "css": ["modal.css"]
+    }
+  ]
+}

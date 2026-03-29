@@ -1,0 +1,86 @@
+#cr-checklist-sidebar {
+  all: initial;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 340px;
+  height: 100vh;
+
+  background: #fff;
+  color: #111;
+  font-family: Arial, sans-serif;
+
+  box-shadow: -4px 0 12px rgba(0, 0, 0, 0.15);
+  z-index: 999999;
+}
+
+/* Reset + base */
+#cr-checklist-sidebar * {
+  box-sizing: border-box;
+  font-family: inherit;
+  color: inherit;
+}
+
+/* Header */
+#cr-checklist-sidebar .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Content */
+#cr-checklist-sidebar .content {
+  padding: 14px;
+  font-size: 14px;
+}
+
+/* Checklist */
+#cr-checklist-sidebar .checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#cr-checklist-sidebar input[type="checkbox"] {
+  cursor: pointer;
+}
+
+#cr-checklist-sidebar .checklist-item span.checked {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Progress */
+#cr-checklist-sidebar #progress {
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Buttons */
+#cr-checklist-sidebar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#cr-checklist-sidebar #reset-btn {
+  margin-top: 16px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  border-radius: 6px;
+}
+
+#cr-checklist-sidebar #reset-btn:hover {
+  background: #eaeaea;
+}
