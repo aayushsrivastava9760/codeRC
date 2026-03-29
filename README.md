@@ -2,7 +2,7 @@
 
 A lightweight Chrome extension that helps developers perform **structured and consistent code reviews** using a simple checklist UI.
 
-It opens a sidebar on any webpage (especially useful on GitHub PRs) where you can track key review aspects like logic, edge cases, logging, and more — ensuring nothing important is missed.
+It opens a sidebar on any webpage (especially useful on GitHub PRs) where you can track key review aspects like logic, edge cases, logging, and more - ensuring nothing important is missed.
 
 ---
 
@@ -76,6 +76,7 @@ cd codeRC
 * ☐ Proper logging added
 * ☐ Error handling done
 * ☐ Naming is meaningful
+* ☐ Tests are added
 * ☐ Code is modular
 
 ---
