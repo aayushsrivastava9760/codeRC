@@ -96,6 +96,21 @@ code-review-checklist-extension/
 
 ---
 
+## 🛠️ Customizing Checklist
+
+1. In `codeRC/content.js` find the `checklistItems` and modify the checklist to match your team’s review standards.
+2. [ Optional ] In `codeRC/modal.css` one can adjust the sidebar width.
+
+```
+#cr-checklist-sidebar {
+   ...
+   width: ...;
+   ...
+}
+```
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome!

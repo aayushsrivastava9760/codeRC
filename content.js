@@ -3,6 +3,7 @@ if (!window.__CR_CHECKLIST_LOADED__) {
 
   let isOpen = false;
 
+  // Update the list based on the team guidelines
   const checklistItems = [
     { id: "logic", label: "Logic is correct" },
     { id: "edge_cases", label: "Edge cases handled" },

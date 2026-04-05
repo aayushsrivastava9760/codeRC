@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  width: 340px;
+  width: 340px; /* Update the width of the modal based on requirements */
   height: 100vh;
 
   background: #fff;
